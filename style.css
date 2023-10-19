@@ -4,23 +4,87 @@
 }
 .phnimg{
     height: 400px;
-    width: 400px;
+    /* width: 400px; */
     position: absolute;
-    top:250px;
-    left: 300px;
-    z-index: 1;
+    top:200px;
+    left: 220px;
+    z-index: 2;
 }
 .section{
     position: relative;
+    background-color: blue;
 }
 
 .info{
     height: 800px;
     width: 800px;
-    background-color: bisque;
+    /* background-color: rgb(90, 68, 41); */
     position: absolute;
-    top: 50px;
-    left: 100px;
-    z-index: 0;
     border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+    z-index: 1;
+}
+.features img{
+    height: 100px;
+    width: 100px;
+}
+.info{
+    position: relative;
+}
+
+.one{
+    position: absolute;
+    left: 350px;
+    transform: rotate(-90deg);
+}
+.two{
+    position: absolute;
+    top: 350px;
+    left: 700px;
+}
+.three{
+    position: absolute;
+    left: 330px;
+    top: 650px;
+    transform: rotate(90deg);
+}
+.four{
+    position: absolute;
+    top: 350px;
+    transform: rotate(-180deg);
+}
+.features h2,.features p{
+    color: white;
+    text-align: center;
+}
+.features div{
+    text-align: center;
+}
+.btnclass{
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+}
+
+.btn{
+    height: 60px;
+    width: 100px;
+    font-size: 35px;
+    font-weight: 600;
+    border: none;
+    background-color: red;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.newdiv{
+    height: 0;
+    width: 0;
+    border-top:400px solid white ;
+    border-bottom:400px solid white ;
+    border-left:400px solid white ;
+    border-right:400px solid blue ;
+    position:absolute;
+    z-index: 0;
 }
