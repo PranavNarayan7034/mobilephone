@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.phnimg{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top:250px;
+    left: 300px;
+    z-index: 1;
+}
+.section{
+    position: relative;
+}
+
+.info{
+    height: 800px;
+    width: 800px;
+    background-color: bisque;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 0;
+    border-radius: 50%;
+}
